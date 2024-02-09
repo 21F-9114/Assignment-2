@@ -1,0 +1,244 @@
+.top-bar{
+    background-color:rgb(225, 120, 0);
+    margin-top:-22px;
+    width:98%;
+    color: white;
+	font-family:sans-serif;
+    justify-content: space-between;
+    padding:0px 10px;
+    margin-bottom:0px;
+    display: flex;
+    
+}
+#menu{
+    font-size: 15px;
+    padding: 20px;
+}
+#names{
+	text-align:center-left;
+	
+}
+#name{
+	text-align:left;
+	width:50%;
+	
+}
+#names{
+	text-align:left-side;
+}
+#submit{
+	color:white;
+	background-color:green;
+	border:0;
+	height:30px;
+	width:7%;
+	border-radius:4px;
+}
+p{
+	font-weight:lighter;
+}
+#order{
+	background-color:green;
+	color:white;
+	border:0;
+	border-radius:5px;
+	width:10%;
+	height:35px;
+}
+#submit:hover{
+		background-color:rgb(225, 120, 0);
+
+}
+#order:hover{
+	background-color:rgb(225, 120, 0);
+}
+body{
+	background-color:#fefefa;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+	
+}
+#quality{
+	color:black;
+	background-color:white;
+	width:97%;
+	height:100px;
+	text-align:left;
+	border:0;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+#textt{
+	text-align:center;
+	font-family:sans-serif;
+}
+#textt h4{
+	color:gray;
+	font-weight:lighter;
+}
+
+body{
+	
+    
+}
+#pizza1{
+	width:300px;
+	position:left;
+		transition: transform 2s ease;
+
+}
+#pizza2{
+	width:300px;
+	position:center;
+			transition: transform 2s ease;
+			
+}
+#pizza3{
+	padding:1px 1px;
+position	:right;
+width:300px;
+	
+	
+}
+
+.low-bar{
+	background-color:rgb(225, 120, 0);
+    height:60px;
+    margin-top:-22px;
+    width:100%;
+    color: white;
+	text-align:center;
+	font-weight:lighter;
+	padding-top:35px;
+}
+form{
+	margin-top:0;
+	padding:10px 100px;
+}
+
+label {
+  display: block;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+#heading{
+	text-align:center;
+}
+
+.card {
+    
+    
+    width: 300px;
+    
+    overflow: hidden;
+    transition: transform 2s ease;
+	text-align:center;
+	position:center;
+	display:inline;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+  
+#cards{
+	text-align:center;
+	display:flex;
+	gap:50px;
+	padding-left:100px;
+	height:300px;
+}  /* CSS for the image */
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+	text-align:center;
+	justify-content: center;
+    align-items: center;
+
+  }
+
+ 
+  .card:hover {
+    transform: rotate(360deg); 
+  }
+  
+
+  
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+    overflow: hidden;
+    transition: transform 2s ease;
+	text-align:center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card1:hover {
+
+ transform: rotateY(180deg)	
+  }
+  
+    .card2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    overflow: hidden;
+    transition: transform 2s ease;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card2:hover {
+  transform: rotate(-360deg) ;
+  }
+  .card1 img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+	text-align:center;
+	justify-content: center;
+    align-items: center;
+
+  }
+  .card2 img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+	text-align:center;
+	justify-content: center;
+    align-items: center;
+
+  }
+ 
+ .image-container {
+  position: relative;
+  display: inline-block; 
+  width: 100%;
+height:500px;/* Ensures that the container takes the size of the images */
+}
+
+#hover-image {
+  display: none; 
+  width: 100%;
+height:500px;
+transition: opacity 2s ease;/* Initially hide the hover image */
+}
+#default-image{
+	width: 100%;
+height:500px;
+}
+
+#default-image:hover {
+  display: none; /* Hide default image on hover */
+}
+
+#default-image:hover + #hover-image {
+  display: inline; /* Display hover image when default image is hovered */
+}
+
+
+    
